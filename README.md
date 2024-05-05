@@ -1,7 +1,10 @@
 # VisDrone-yolov8
  Many yolov8 model  are trained on the VisDrone dataset.
 
-## performance
+## Train
+You can train according to my parameter settings or download my model. All model parameters were trained on a single A40 GPU.
+
+## Performance
 | model | input size | other hyper-parameters | val mAP50 | val mAP50-95 | test mAP50 | test mAP50-95 | model & log |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |  :-: | 
 | yolov8s | 640 | default | 0.404| 0.24| 0.32| 0.184| [Google](https://drive.google.com/drive/folders/1PV44NEOVTb_M_okL3Ehpl989hV29I-gg?usp=drive_link)|
