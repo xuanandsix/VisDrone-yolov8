@@ -1,8 +1,9 @@
 # VisDrone-yolov8
- Many yolov8 model  are trained on the VisDrone dataset.
+ Many yolov8 models  are trained on the VisDrone dataset. Office code https://github.com/ultralytics/ultralytics.
 
 ## Train
-You can train according to my parameter settings or download my model. All model parameters were trained on a single A40 GPU.
+You can train according to my parameter settings or download my model. All model parameters were trained on a single A40 GPU. Using yolov8s as main comparison 
+ baseline.
 
 ## Performance
 | model | input size | other hyper-parameters | val mAP50 | val mAP50-95 | test mAP50 | test mAP50-95 | model & log |
@@ -13,9 +14,9 @@ You can train according to my parameter settings or download my model. All model
 | yolov8s | 960 & mutil-scale| default | 0.492 | 0.304 | 0.399 | 0.236 |  [Google](https://drive.google.com/drive/folders/1fMmcbmD7xuKQwYLTmVDoGLWzjuSspyj3?usp=drive_link) |
 | yolov8s-p2 | 960 | default | 0.519 | 0.321 |  0.417 | 0.244 |  [Google](https://drive.google.com/drive/folders/1rNy1lIe2FLOQUzh8I8aTt9aG3gYQ1IJ1?usp=drive_link) |
 | yolov8s-p2 | 960 | minxup=0.4 | 0.522 | 0.325 | 0.431| 0.255 |  [Google](https://drive.google.com/drive/folders/1fYgmNKjObD1GCigl68geznu6rKxr7X-k?usp=drive_link) |
-| yolov8s-p2 | 960 | minxup=0.4, val iou=0.6| 0.531 | 0.327 | 0.437 |  0.256 |  [Google](https://drive.google.com/drive/folders/1fYgmNKjObD1GCigl68geznu6rKxr7X-k?usp=drive_link) |
+| yolov8s-p2 | 960 | minxup=0.4, val iou=0.6| **0.531** | **0.327** | **0.437** |  **0.256** |  [Google](https://drive.google.com/drive/folders/1fYgmNKjObD1GCigl68geznu6rKxr7X-k?usp=drive_link) |
 
-
+The parameters settings for best performance can be found in the **default.yml** file.
 
 ## Other failed attempts
 - copy_paste
